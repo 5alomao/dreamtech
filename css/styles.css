@@ -8,7 +8,7 @@
 body {
   margin: 0 auto;
   background-color: #333;
-  width: 786px;
+  max-width: 768px;
 }
 
 .home {
@@ -32,7 +32,7 @@ body {
 }
 
 .about {
-  background-color: #d9d9d9;
+  background-color: #fafafa;
   padding: 2% 5%;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .about h3 span {
-  color: rgb(107, 19, 158);
+  color: rgb(150, 14, 150);
 }
 
 .about h3 {
@@ -75,20 +75,94 @@ body {
   padding: 10px;
 }
 
-.sol {
+.solutions {
   padding: 2% 5%;
   background-color: #fff;
 }
 
-.sol h1 {
+.solutions h1 {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.sol p {
+.solutions p {
   text-align: justify;
 }
 
-.sol ul {
+.solutions ul {
   padding: 1rem 5rem;
+}
+
+.goals {
+  background-color: #fafafa;
+  padding: 2% 5%;
+}
+
+.goals h1 {
+  text-align: center;
+}
+
+.goals h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.g-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.g-box {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(150, 14, 150);
+  width: 60%;
+  color: white;
+}
+
+.g-box h3 {
+  text-align: center;
+  margin-bottom: 8px;
+  border-bottom: 1px solid white;
+}
+
+.g-box p {
+  text-align: justify;
+}
+
+.questions {
+  background-color: #fff;
+  padding: 2% 5%;
+}
+
+.questions h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.questions h3 {
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+  width: fit-content;
+}
+
+.questions p {
+  padding: 0 1rem;
+  text-align: justify;
+  margin: 1rem 0;
+}
+
+footer {
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  background-color: rgb(150, 14, 150);
+}
+
+footer h3 {
+  font-size: 1rem;
+  font-weight: 400;
 }
