@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #333;
+  width: 786px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 5%;
+  background-color: #fff;
+}
+
+.home h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.home h3 {
+  margin: 5px;
+  font-size: 1.2rem;
+}
+.home h3 span {
+  color: rgb(13, 180, 13);
+}
+
+.about {
+  background-color: #d9d9d9;
+  padding: 2% 5%;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about h3 span {
+  color: rgb(107, 19, 158);
+}
+
+.about h3 {
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+.mv-group {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+.mv-box {
+  background-color: rgb(150, 14, 150);
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+}
+
+.mv-box h3 {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.mv-box p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.sol {
+  padding: 2% 5%;
+  background-color: #fff;
+}
+
+.sol h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sol p {
+  text-align: justify;
+}
+
+.sol ul {
+  padding: 1rem 5rem;
+}
